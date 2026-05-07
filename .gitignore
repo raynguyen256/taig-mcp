@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build artifacts (keep dist for deployment)
+# dist/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local Claude settings
+.claude/settings.local.json
+
+# Project planning & internal docs (excluded from public repo)
+sprints.md
+sprint-report.html
+taiga-mcp-dev-plan.md
+taiga-mcp-requirements.md
+
+# Archives
+*.zip
